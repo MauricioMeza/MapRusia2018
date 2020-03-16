@@ -1,0 +1,111 @@
+/* Estilo de la imagen de fondo */
+body.fondo{
+	background-image: url("ImgPagina/FondoMundial.png");
+	background-size: 100%;
+	background-repeat: repeat-y;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+ /* Estilo del header que contiene el menu de navegacion */
+header.MenuHeader{
+		width: 100%;
+		height: auto;
+		background-color: c82424;
+		position: relative;
+}
+ /* Imagen de titulo del Header */
+.HeaderLogo{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 35%;
+}
+.Mapa{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+}
+ /* Division para el contenido */
+div.box{
+	margin-bottom: 2%;
+	Background-color: e4c484;
+	margin-left: 7%;
+	margin-right: 7%;
+	padding-left: 2px;
+	padding-right: 2px;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.8), 0 8px 24px 0 rgba(0, 0, 0, 0.8);
+}
+ /* Division para el contenido secundario*/
+div.box2{
+	margin-bottom: 2%;
+	Background-color: e4c484;
+	margin-left: 7%;
+	margin-right: 7%;
+	padding-left: 2px;
+	padding-right: 2px;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.8), 0 8px 24px 0 rgba(0, 0, 0, 0.8);
+}
+ /* Division para el canvas de Phaser */
+div.ContentFiller{
+	margin-left: 7%;
+	margin-right: 7%;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.9), 0 8px 24px 0 rgba(0, 0, 0, 0.9);
+}
+ /* Define el menu de navegacion dentro del header */
+nav.MenuButtons{
+	width: auto;
+	height: 20%;
+	position: absolute;
+    bottom: 0.1%;
+	padding: 1px;
+	right: 1px;
+	left: 1px;
+	background-color: e4c484;
+	
+}
+ /* Define los botones que se usan en el menu de navegacion */
+button.ButtonMenu{
+	width: 32.5%;
+	position: center;
+	background-color: e4c484;
+	border-style: none;
+	margin: 0;
+	padding-top: 0.5%|;
+}
+ /* Cambia el color de los botones cuando se pasa sobre ellos */
+button:hover{background-color: #ba9b69;}
+ /* Texto de los botones */
+p.buttonText{
+	color: ffffff;
+	text-shadow: 2px 2px 4px #000000;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-size: 1.5vw;
+}
+ /* Texto de los titulos */
+p.TituloParrafo{
+	text-align: center;
+	color: ffffff;
+	text-shadow: 2px 2px 4px #000000;
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+	font-size: 2.0vw;
+}
+ /* Texto de los parrafos */
+p.TextoParrafo{
+	color: 000000;
+	font-size: 18px;
+	font-size: 1.7vw;
+}
+p.TextoCreditos{
+	color: 000000;
+	font-size: 18px;
+	font-size: 1.7vw;
+	text-align: center;
+}
+div.Instrucciones{
+	margin: 5%;
+}

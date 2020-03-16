@@ -1,0 +1,35 @@
+<head>
+	<!--Head con titulo de pagina y los links al CSS, Libreria de Phaser y el script del mapa-->
+	<title> RUSIA 2018 MAPA </title>
+	<link rel="stylesheet" type="text/css" href="MundialStyle.css">
+	<script src="phaser.js"> </script>
+	<script src="mapa.js"> </script>
+</head>
+
+<body class="fondo">
+	<!--Encabezado con la imagen de titulo y los botones de menu que permiten navegar en la pagina-->
+	<div class="box">
+		<header class="MenuHeader">
+			<image class="HeaderLogo" src="ImgPagina/Header.png"> </image>
+			<nav class="MenuButtons">
+				<a href="https://es.fifa.com/worldcup/"> <button class="ButtonMenu"> <p class="buttonText">PAGINA OFICIAL</p> </button> </a>
+				<a href="Index.html"> <button class="ButtonMenu"> <p class="buttonText">MAPA MUNDIAL</p> </button> </a>
+				<a href="Creditos.html"> <button class="ButtonMenu"> <p class="buttonText">CREDITOS</p>  </button> </a>
+			</nav>
+		</header>
+	</div>
+	
+	<!--Division con el Canvas de Phaser que contiene el mapa-->
+	<div class="ContentFiller" id="mapaInt"> </div>
+	
+	<!--Division con las instrucciones para utilizar el mapa-->
+	<div class="box2"> 
+		<div class="Instrucciones">
+			<br>	<p class="TituloParrafo">INSTRUCCIONES</p> 
+			<p class="TextoParrafo">- Utilice las flechas del teclado o las que se encuentran en la pantalla para moverse en el mapa de Rusia</p> 
+			<p class="TextoParrafo">- Pase el mouse por encima de alguna sede para ver informacion de los estadios en el mapa</p>
+			<p class="TextoParrafo">- De click seleccionando una sede para ver una lista de los partidos que se jugaran en esta</p>
+			<br>
+		</div>
+	</div>
+</body>
